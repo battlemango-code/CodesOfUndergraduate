@@ -1,0 +1,121 @@
+
+/* #wrap{ */
+/*     font-family: "微软雅黑", serif; */
+/*     display: flex; */
+/*     justify-content: space-around; */
+/*     flex-wrap: wrap; */
+/*     width: 1200px; */
+/*     height: 40%; */
+/*     background-color: blanchedalmond; */
+/*     text-align: center; */
+/* } */
+html{
+    width: 1200px;
+}
+.mainlist{
+    width: 1200px;
+    height: 5000px;
+    background-color: #ddd;
+}
+/*  */
+#prod_div{
+    float:left;
+    width: 445px;
+    border-style:solid;
+    background-color:white;
+    border-width:76px;
+    border-color:white;
+    font-size: 20px;
+    
+}
+.contain {
+	width: 1200px;
+	height: 600px;
+	margin: 100px auto;
+}
+.block {
+	width: 100%;
+	height: 33.33%;
+	font-size: 50px;
+	line-height: 200px;
+	text-align: center;
+	border: 1px solid #ddd
+}
+.tag{
+    width: auto;
+    height: 20px;
+    font-size: 20px;
+}
+.taglist{
+    width:auto;
+    height:100px;
+    border-style:solid;
+	border-width:5px;
+}
+
+/** 分页 */
+
+.pagination{
+    display: inline-block;
+}
+
+.pagination>ul{
+    padding:2px;
+    margin: 2px;
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+}
+
+.pagination>ul>li{
+    float: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #e2e2e2;
+}
+
+.pagination>ul>li:first-child{
+    background-color: rgb(30, 159, 255);
+}
+
+.pagination>ul>li:last-child{
+    border-right-width: 10px;
+}
+
+.pagination>ul>li>a{
+    display: inline-block;
+    width: 38px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.pagination>ul>li>a:hover{
+    opacity: 0.7;
+}
+
+.pagination>a{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #e2e2e2;
+
+}
+
+.pagination a.page-pre{
+    margin-right: -10px;
+    float: left;
+    color: #d2d2d2;
+    cursor: not-allowed;
+    border-right-width: 10px;   
+}
+
+.pagination a.page-next{
+    float: right;
+    border-left-width: 10px;
+}
+
+/* 分页 end **/
